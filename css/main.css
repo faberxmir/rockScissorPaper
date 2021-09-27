@@ -1,0 +1,48 @@
+#gamewrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#gamewrapper header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#gameSection {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+#gameSection .results{
+    display: flex;
+    background-color: cadetblue;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+#gameSection .results img{
+    margin: 0 auto;
+    width: 33%;
+}
+
+#gameSection .userchoices{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+}
+
+#gameSection .userchoices img {
+    width: 25%;
+    margin: 0 auto;
+}
+
+#gameSection .userchoices img:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+}
