@@ -1,3 +1,10 @@
-import * as TestClass from './codetester.js';
+import { ViewController} from './viewcontroller.js'
 
-console.log("Game is running");
+const viewHandler = new ViewController();
+
+viewHandler.disableView(viewHandler.getMenuView());
+viewHandler.enableGameView();
+viewHandler.disableView(viewHandler.getCounter());
+viewHandler.updatecomputerChoice(viewHandler.ROCKIMAGE);
+viewHandler.updateplayerChoice(viewHandler.PAPERIMAGE);
+

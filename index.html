@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="gamewrapper">
-        <header>
+        <section id="menu">
             <h1>Stein, Saks, Papir</h1>
             <p>
                 Stein saks papir er en gammel klassiker. Det er best av tre, alltid! <br>
@@ -20,19 +20,22 @@
                     <li>Saks vinner over papir</li>
                 </ul>
             </p>
-        </header>
+            <button id="playbutton">Start spillet!</button>
+        </section>
         <section id="gameSection">
+            <div id="counter">
+                1
+            </div>
             <div class="results">
-                <img src="./img/questionmark.png" alt="result of game">
-                <img src="./img/questionmark.png" alt="result of game">
+                <img id='computerchoice' src="./img/questionmark.png" alt="result of game">
+                <img id='userchoice' src="./img/questionmark.png" alt="result of game">
             </div>
             <div class="userchoices">
-                <img src="./img/paper.png" alt="scissors">
-                <img src="./img/scissor.png" alt="stone" >
-                <img src="./img/paper.png" alt="paper" >
+                <img id="scissorbutton" src="./img/paper.png" alt="scissors">
+                <img id="stonebutton" src="./img/scissor.png" alt="stone" >
+                <img id="paperbutton" src="./img/rock.png" alt="paper" >
             </div>
         </section>
-
     </div>
 </body>
 </html>
